@@ -8,6 +8,7 @@ const SearchBar = (props)=>{
                 value={props.searchValue} 
                 onChange={props.setSearchValue}
                 className="form-control"
+                maxLength={100}
             />
         </div>
     )
