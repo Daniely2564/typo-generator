@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './Home/home';
+import './index.css';
 const App = ()=>{
     return (
-        <div>
+        <div className="container">
             <Home/>
         </div>
     )
